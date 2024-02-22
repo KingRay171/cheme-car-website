@@ -7,7 +7,7 @@ export default function HomeBottom() {
             <div className="border-solid border-2 border-black rounded-[50px] flex flex-col p-12" >
                 <h1 className="text-7xl pb-4">Upcoming Events:</h1>
                 <ul className="max-w-[40vw] text-2xl "> 
-                    <li>we can put our upcoming events/schedule here if we'd like</li>
+                    <li>we can put our upcoming events/schedule here if we&apos;d like</li>
                     
                 </ul>
             </div>
