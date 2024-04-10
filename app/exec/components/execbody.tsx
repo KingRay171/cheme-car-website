@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export default function ExecBody() {
     const execList = [
-        {name: "Alessandro D'Amico - Co-Captain", major: "Chemical Engineering B.S.E.", year: "Sophomore", linkedin: "/snehal-c", image: "/Caden.jpg"},
-        {name: "Snehal Choudbury - Co-Captain", major: "Chemical Engineering B.S.E.", year: "Sophomore", linkedin: "/alessandro-d-amico", image: "/Xavier.jpg"},
+        {name: "Alessandro D'Amico - Co-Captain", major: "Chemical Engineering B.S.E.", year: "Sophomore", linkedin: "/alessandro-d-amico", image: "/ale.jpeg"},
+        {name: "Snehal Choudbury - Co-Captain", major: "Chemical Engineering B.S.E.", year: "Sophomore", linkedin: "/snehal-c", image: "/ale.jpeg"},
     ]
     return (
         <section className="flex justify-around bg-gray-200 text-black py-8">
