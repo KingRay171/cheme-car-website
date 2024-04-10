@@ -9,7 +9,7 @@ export default function HomeMiddle() {
                     description/blurb about the club here
                 </p>
             </div>
-            <Image src='/battery.jpg' alt="Quantum Gates" width={400} height={100}/>
+            <Image src='/battery.jpg' alt="Quantum Gates" width={0} height={0} style={{ width: '30%', height: 'auto' }} unoptimized/>
         </section>
     )
 }

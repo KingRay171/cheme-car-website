@@ -5,7 +5,7 @@ import PhotoAlbum from "react-photo-album"
 
 export default function Exec() {
     const photos = [
-        {src: "/battery.jpg", width: 800, height: 600}
+        {src: "/battery.jpg", width: 400, height: 300}
     ]
     return (
         <div className="flex flex-col h-[100vh]">
