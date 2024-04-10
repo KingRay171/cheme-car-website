@@ -5,11 +5,11 @@ import HomeMiddle from './components/homemiddle'
 import HomeBottom from './components/homebottom'
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <div className="flex flex-col h-[100vh]">
       <Nav />
       <HomeTop />
       <HomeMiddle />
       <HomeBottom />
-    </main>
+    </div>
   )
 }
