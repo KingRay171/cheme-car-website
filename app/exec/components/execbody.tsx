@@ -8,7 +8,7 @@ export default function ExecBody() {
     return (
         <section className="flex justify-around bg-gray-200 text-black p-[2vw]">
             {execList.map(e => (
-                <div className="flex flex-col p-[3vw]" key={e.linkedin}>
+                <div className="flex flex-col p-[3vw] space-y-[1vh]" key={e.linkedin}>
                     <Image src={e.image} alt={e.name} width={0} height={0} style={{width: "40vw", height: "auto"}} unoptimized/>
                     <h1>{e.name}</h1>
                     <h3>Major: {e.major}</h3>
