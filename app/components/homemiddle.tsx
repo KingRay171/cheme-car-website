@@ -9,7 +9,7 @@ export default function HomeMiddle() {
                     description/blurb about the club here
                 </p>
             </div>
-            <Image src={"/battery.jpg"} width={0} height={0} alt="hi" style={{width: "30vw", height: "auto"}} layout="responsive" unoptimized/>
+            <Image src={"/battery.jpg"} width={0} height={0} alt="hi" style={{width: "30vw", height: "auto", objectFit: "contain"}} layout="responsive" quality={100}/>
             </section>
     )
 }

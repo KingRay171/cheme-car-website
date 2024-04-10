@@ -9,7 +9,7 @@ export default function HomeBottom() {
                     <li>we can put our upcoming events/schedule here if we&apos;d like</li>
                 </ul>
             </div>
-            <Image src={"/battery2.png"} width={0} height={0} alt="hi" style={{width: "30vw", height: "auto"}} layout="responsive" unoptimized/>
+            <Image src={"/battery2.png"} width={0} height={0} alt="hi" style={{width: "30vw", height: "auto", objectFit: "contain"}} layout="responsive" unoptimized/>
         </section>
     )
 }
