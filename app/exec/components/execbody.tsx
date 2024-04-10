@@ -6,10 +6,10 @@ export default function ExecBody() {
         {name: "Snehal Choudbury - Co-Captain", major: "Chemical Engineering B.S.E.", year: "Sophomore", linkedin: "/snehal-c", image: "/ale.jpeg"},
     ]
     return (
-        <section className="flex justify-around bg-gray-200 text-black py-8">
+        <section className="flex justify-around bg-gray-200 text-black p-[2vw]">
             {execList.map(e => (
-                <div className="flex flex-col" key={e.linkedin}>
-                    <Image src={e.image} alt={e.name} width={200} height={200} />
+                <div className="flex flex-col p-[3vw]" key={e.linkedin}>
+                    <Image src={e.image} alt={e.name} width={0} height={0} style={{width: "40vw", height: "auto"}} unoptimized/>
                     <h1>{e.name}</h1>
                     <h3>Major: {e.major}</h3>
                     <h3>Year: {e.year}</h3>
