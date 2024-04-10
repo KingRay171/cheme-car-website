@@ -1,12 +1,9 @@
 import Image from "next/image"
 export default function HomeTop() {
     return (
-        <section className="w-screen bg-[#003071] bg-no-repeat bg-cover flex flex-col items-center"> 
-            <h1 className="pt-28 text-[15vw] font-homeheader">CWRU ChemE Car</h1>
-            <h2 className="text-[6vw]">Hosted by AIChE</h2>
-            <div className="flex space-x-10 pt-5">
-                
-            </div>
+        <section className="w-screen bg-[#003071] bg-no-repeat bg-cover flex flex-col items-center p-[5vh]"> 
+            <h1 className="text-[8vw] font-homeheader">CWRU ChemE Car</h1>
+            <h1 className="text-[5vw]">Hosted by AIChE</h1>
 
         </section>
     )
