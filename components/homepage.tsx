@@ -36,7 +36,7 @@ export function Homepage() {
                     CWRU Chem-E Car
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    We are a team of hard-working engineering undergrads at Case Western Reserve University that participates in AIChE's annual Chem-E-Car Competition!
+                    We are a team of hard-working engineering undergrads at Case Western Reserve University that participates in AIChE&apos;s annual Chem-E-Car Competition!
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -72,7 +72,7 @@ export function Homepage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Each year, we build a shoebox-sized car that is powered by green chemical reactions and can stop after travelling a specified distance on it's own.
+                  Each year, we build a shoebox-sized car that is powered by green chemical reactions and can stop after travelling a specified distance on it&apos;s own.
                 </p>
               </div>
             </div>
@@ -145,24 +145,5 @@ export function Homepage() {
       </main>
       <Footer />
     </div>
-  )
-}
-
-function MountainIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
   )
 }

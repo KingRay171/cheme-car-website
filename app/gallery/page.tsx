@@ -12,6 +12,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { ScriptProps } from "next/script";
 
 
 export default function Exec() {
@@ -36,7 +37,7 @@ export default function Exec() {
             <section className="w-full max-w-4xl mx-auto py-12 md:py-16 lg:py-20">
       <div className="px-4 md:px-6 lg:px-8">
         <div className="space-y-4 md:space-y-6 lg:space-y-8 text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">Last Year's Photos</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">Last Year&apos;s Photos</h2>
           <p className="text-muted-foreground text-sm md:text-base lg:text-lg">
             Take a look at some of the work we did last year!
           </p>
@@ -52,10 +53,10 @@ export default function Exec() {
               }
             </CarouselContent>
             <CarouselPrevious className="absolute top-1/2 -translate-y-1/2 left-4 z-10 text-primary-foreground hover:text-primary">
-              <ChevronLeftIcon className="w-6 h-6" />
+              <ChevronLeftIcon />
             </CarouselPrevious>
             <CarouselNext className="absolute top-1/2 -translate-y-1/2 right-4 z-10 text-primary-foreground hover:text-primary">
-              <ChevronRightIcon className="w-6 h-6" />
+              <ChevronRightIcon  />
             </CarouselNext>
           </Carousel>
         </div>
@@ -66,10 +67,10 @@ export default function Exec() {
     )
 }
 
-function ChevronLeftIcon(props) {
+function ChevronLeftIcon() {
   return (
     <svg
-      {...props}
+      className="w-6 h-6"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -86,10 +87,10 @@ function ChevronLeftIcon(props) {
 }
 
 
-function ChevronRightIcon(props) {
+function ChevronRightIcon() {
   return (
     <svg
-      {...props}
+      className="w-6 h-6"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
