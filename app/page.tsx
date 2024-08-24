@@ -5,15 +5,12 @@ import HomeMiddle from './components/homemiddle'
 import HomeBottom from './components/homebottom'
 import ChemECar from './components/chemecar'
 import Footer from './components/footer'
+import { Homepage } from '@/components/homepage'
 export default function Home() {
   return (
     <div className="flex flex-col h-[100vh]">
       <Nav />
-      <HomeTop />
-      <ChemECar />
-      <HomeMiddle />
-      <HomeBottom />
-      <Footer />
+      <Homepage />
     </div>
   )
 }
