@@ -17,6 +17,7 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
+import Footer from "@/app/components/footer"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -57,19 +58,7 @@ export function ExecPage() {
           </div>
         </div>
       </main>
-      <footer className="bg-muted text-muted-foreground py-6 w-full shrink-0">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8 flex items-center justify-between">
-          <p className="text-xs">&copy; 2024 College Club</p>
-          <nav className="flex gap-4 sm:gap-6">
-            <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-              Terms of Service
-            </Link>
-            <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-              Privacy
-            </Link>
-          </nav>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

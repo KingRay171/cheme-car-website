@@ -9,7 +9,6 @@ export default function Exec() {
         <div className="flex flex-col h-[100vh]">
             <Nav />
             <ExecPage />
-            <Footer />
         </div>
     )
 }
