@@ -84,8 +84,7 @@ export function Homepage() {
                           <FontAwesomeIcon icon={faGear} width={20} />
                         </div>
                         <p className="text-muted-foreground">
-                          Provide underserved communities with access to innovative technology solutions and educational
-                          resources.
+                          Includes 3D design of car components and fabrication using ThinkBox tools and machinery.
                         </p>
                       </div>
                     </li>
@@ -97,8 +96,7 @@ export function Homepage() {
                           <FontAwesomeIcon icon={faFlask} width={20} />
                         </div>
                         <p className="text-muted-foreground">
-                          Work closely with community leaders and stakeholders to understand their unique needs and
-                          develop tailored solutions.
+                          Designing and building a battery with sufficient voltage to power the car and a chemical vial that changes color when it's time for the car to stop.
                         </p>
                       </div>
                     </li>
@@ -110,8 +108,7 @@ export function Homepage() {
                           <FontAwesomeIcon icon={faBolt} width={20} />
                         </div>
                         <p className="text-muted-foreground">
-                          Ensure the long-term sustainability of our initiatives through ongoing support and
-                          collaboration.
+                          Circuit includes UV sensor, Arduino, on/off switch, solid state relay, and more. Involves soldering wires and coding
                         </p>
                       </div>
                     </li>
